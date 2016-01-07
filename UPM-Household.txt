@@ -1,0 +1,104 @@
+{
+    "previousPage": "http://10.78.222.28:6040/upm/households/?&limit=1&offset=0&total=true",
+    "nextPage": "http://10.78.222.28:6040/upm/households/?&limit=1&offset=2&total=true",
+    "start": 1,
+    "count": 1,
+    "total": 100000,
+    "body": [
+        {
+            "region": null,
+            "address": null,
+            "locale": {},
+            "enabledServices": [],
+            "householdId": "demoTest",
+            "defaultUserId": null,
+            "createDate": "2014-07-15T10:44:25Z",
+            "operateStatus": "INACTIVE",
+            "preferences": {
+                "lockedChannels": []
+            },
+            "metadata": {},
+            "lastUpdateDate": "2015-06-26T00:02:30Z",
+            "authorizations": {
+                "subscriptions": [
+                    {
+                        "authorizationStatus": "PURCHASE_COMPLETED",
+                        "isHidden": false,
+                        "creationDate": "2015-06-16T06:20:49Z",
+                        "expirationDate": null,
+                        "description": "Base pack",
+                        "authorizationId": "601",
+                        "authorizationType": "SUBSCRIPTION",
+                        "createDate": "2015-06-16T13:43:33Z",
+                        "offerKey": "Base pack",
+                        "lastUpdateDate": "2015-06-16T06:20:49Z"
+                    },
+                    {
+                        "isHidden": false,
+                        "authorizationStatus": "PURCHASE_STARTED",
+                        "sourceType": "SMS",
+                        "transactionId": "111",
+                        "purchaseDate": "2015-01-18T12:30:20Z",
+                        "authorizationId": "121",
+                        "authorizationType": "SVOD",
+                        "createDate": "2015-01-18T12:30:20Z",
+                        "offerKey": "551",
+                        "lastUpdateDate": "2015-01-18T12:30:20Z"
+                    }
+                ]
+            },
+            "devices": [
+                {
+                    "lastPresenceOfflineTime": -1,
+                    "presenceStatus": "OFFLINE",
+                    "macAddress": null,
+                    "type": "MANAGED",
+                    "lastUpdateDate": "2014-07-15T10:46:42Z",
+                    "serialNo": null,
+                    "lastPresenceOnlineTime": -1,
+                    "zipCode": null,
+                    "jid": null,
+                    "createDate": "2014-07-15T10:46:42Z",
+                    "onlineUserId": null,
+                    "operateStatus": "INACTIVE",
+                    "deviceId": "demoTestDev1",
+                    "profile": null,
+                    "ipAddress": null,
+                    "metadata": {},
+                    "preferences": {
+                        "audioDescriptionFlag": false
+                    }
+                }
+            ],
+            "userProfiles": [
+                {
+                    "lastLoginIpAddress": null,
+                    "lastName": null,
+                    "presenceStatus": "OFFLINE",
+                    "lastUpdateDate": "2014-07-15T10:44:25Z",
+                    "uiLanguage": "eng",
+                    "phoneNumber": null,
+                    "isDefault": true,
+                    "email": null,
+                    "priority": 0,
+                    "userId": null,
+                    "userProfileId": "demoTest_0",
+                    "role": null,
+                    "jid": null,
+                    "createDate": "2014-07-15T10:44:25Z",
+                    "displayName": null,
+                    "firstName": null,
+                    "operateStatus": "INACTIVE",
+                    "lastLoginTime": null,
+                    "preferences": {
+                        "uiLanguage": "eng",
+                        "phoneNumber": null,
+                        "nickName": "Home",
+                        "channelLineupFilter": "ALL_CHANNELS"
+                    },
+                    "metadata": {}
+                }
+            ]
+        }
+    ]
+}
